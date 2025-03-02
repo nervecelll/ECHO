@@ -2,8 +2,8 @@
 
 for(var j=0;j<length_laser;j++){
 	var flicker = random_range(0.6,1.4);
-	
 	draw_sprite_ext(whatImage ,1 , x+lengthdir_x(j,direction), y+lengthdir_y(j,direction),1,1,direction, c_white , 1);
+
 	//part_particles_create(Object_particle_Setup.particlesystem,xEnd, yEnd, Object_particle_Setup.particleType_hit, 1 );
 	//part_particles_create(Object_particle_Setup.particlesystem,xEnd, yEnd, Object_particle_Setup.particleType_spark, 10);
 }

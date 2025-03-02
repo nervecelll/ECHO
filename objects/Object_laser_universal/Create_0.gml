@@ -2,6 +2,7 @@ xEnd = 0;
 yEnd = 0;
 length_laser = 0;
 color =1;
+cooldown=false;
 
 
 whatImage = Sprite_laser;
