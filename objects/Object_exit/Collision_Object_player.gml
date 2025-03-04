@@ -1,6 +1,6 @@
 switch(room)
 {
-case Room2:
+case Room3:
 room_goto(Room1)
 break;
 }
