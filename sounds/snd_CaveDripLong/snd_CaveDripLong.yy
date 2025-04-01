@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_CaveDripLow",
+  "%Name":"snd_CaveDripLong",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,7 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":1.264021,
-  "name":"snd_CaveDripLow",
+  "name":"snd_CaveDripLong",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_CaveDripLow.wav",
+  "soundFile":"snd_CaveDripLong.wav",
   "type":0,
   "volume":1.0,
 }
