@@ -10,5 +10,5 @@ audio_play_sound(snd_CaveDripShort, 0, 0, 1.0, undefined, 1.0);
 /// @DnDVersion : 1
 /// @DnDHash : 55B51F2B
 /// @DnDArgument : "steps" "100"
-/// @DnDArgument : "alarm" "3"
-alarm_set(3, 100);
+/// @DnDArgument : "alarm" "2"
+alarm_set(2, 100);
