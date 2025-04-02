@@ -76,6 +76,9 @@ if(cooldown = false)
 		{
 		passwordcheck++;
 		show_message(passwordcheck);
+		
+		audio_play_sound(snd_StoneDoor04, 0, 0, 1.0, undefined, 1.0);
+		
 		instance_destroy(self);
 		instance_destroy(Object_wall_vertical_1);
 		with(Object_symbolic_door_hit)
