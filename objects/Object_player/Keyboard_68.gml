@@ -1,4 +1,4 @@
-x = x+10;
+x = x+7;
 
 soundshootdir = 0;
 

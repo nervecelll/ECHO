@@ -1,4 +1,4 @@
-y = y+10;
+y = y+7;
 
 soundshootdir = -90;
 

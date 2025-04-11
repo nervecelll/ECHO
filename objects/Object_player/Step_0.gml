@@ -1,4 +1,4 @@
-
+image_speed = 0.5;
 if mouse_check_button(mb_left){
 	
 	if !(instance_exists(Object_laser_universal)){
@@ -233,7 +233,7 @@ else
 
 
 
-if(place_meeting(self.x,self.y,Object_fake_door_vertical_1)==true or place_meeting(self.x,self.y,Object_fake_door_vertical_2)==true or place_meeting(self.x,self.y,Object_fake_door_horizontal_1)==true )
+if(place_meeting(self.x,self.y,Object_fake_door_vertical_1)==true or place_meeting(self.x,self.y,Object_fake_door_vertical_2)==true or place_meeting(self.x,self.y,Object_fake_door_horizontal_1)==true or place_meeting(self.x,self.y,Object_fake_door_horizontal_1_l3)==true)
 {
 	with(Object_hold_space)
 	{
@@ -248,4 +248,7 @@ else
 	}
 }
 
-
+if(place_meeting(self.x,self.y,Object_worms)==true)
+{
+	hasworms=true;
+}

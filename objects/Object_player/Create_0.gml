@@ -8,7 +8,8 @@ button_held=0;
 released_held=0;
 haskey=0;
 hasbook=false;
-
+hasworms=false;
+haskey4=false;
 
 instance_create_layer(x,y,"Instances_1",Object_magnifier);
 global._part_system = part_system_create();
